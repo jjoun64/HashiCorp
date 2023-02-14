@@ -2,7 +2,7 @@
 
 This project contains interview assignments for roles on the HashiCorp Education team.
 Contact the team at `#team-education` or team-education@hashicorp.com with any questions or concerns.
-TEST
+
 
 # Assignments
 
