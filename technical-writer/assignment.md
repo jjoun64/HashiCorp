@@ -1,4 +1,4 @@
-## Overview
+# Technical Writing and Editing Project
 
 This is a technical writing and editing project as part of your interview.
 
