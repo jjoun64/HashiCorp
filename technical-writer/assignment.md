@@ -1,6 +1,6 @@
 # Technical Writing and Editing Project
 
-This is a technical writing and editing project as part of your interview.
+This technical writing and editing project is part of your interview process.
 
 This project is designed to take between 1 - 2 hours.
 Please take the time to carefully review the [writing style guide](../styling-guide-snippet.md).
