@@ -1,4 +1,4 @@
-# What is the difference between the Git push, pull, and fetch commands?
+# What is the Difference Between the Push, Pull, and Fetch Git Commands?
 
 The following commands enable you to send, get, and merge changes between Git branches and repositories (also known as repos). This document will explain the diffferences between the commands.
 
