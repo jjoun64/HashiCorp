@@ -16,4 +16,12 @@ This operation will fail if the tracking branch has diverged from your local bra
 
 ## Fetching and pulling changes
 
-When this happens, your local branch needs to be synchronized with the remote branch with git pull or git fetch and git merge.`git fetch` again takes our current branch, and checks to see if there is a tracking branch. If so, it looks for changes in the remote branch, and pulls them into the tracking branch. It does not change your local branch. To do that, you'll need to do `git merge origin/master` (for the "master" branch) to merge those changes into your branch - probably also called "master".`git pull` simply does a `git fetch` followed immediately by `git merge`. This is often what we desire to do, but some people prefer to use git fetch followed by git merge to make sure they understand the changes they are merging into their branch before the merge happens.
+When the `git-push` command fails, synchronize your local branch with the tracking branch, using the `git fetch` and `git merge` commands or the `git pull` command. 
+
+The `git fetch` command checks if there is a remote tracking branch for your local branch. If so, it pulls changes from the tracking branch into your local branch but does not change it. To incorporate the changes into the local branch, use the `git merge` command. 
+
+The `git pull` command automatically runs the `git fetch` and `git merge` commands.
+
+To understand the changes that you are pulling into your branch before merging them, use the `git fetch` command. If the changes are acceptable, follow up with the `git merge` command. 
+
+Otherwise, use the `git pull` command.
