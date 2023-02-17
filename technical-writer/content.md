@@ -8,7 +8,11 @@ The following commands enable you to send, get, and merge changes between Git br
 
 ## Pushing changes
 
- `git push` takes our current branch, and checks to see whether or not there is a tracking branch for a remote repository connected to it. If so, our changes are taken from our branch and pushed to the remote branch. This is how code is shared with a remote repository, you can think of it as "make the remote branch resemble my local branch". This will fail if the remote branch has diverged from your local branch: if not all the commits in the remote branch are in your local branch. 
+ The `git push` command enables users to share code with a remote repository. After you push changes from your local branch to a remote tracking branch, the tracking branch resembles the local branch.
+
+This command checks if there is a tracking branch for your local branch located in a remote repository connected to your local repository. If so, Git pushes the committed changes from your working branch to the tracking branch. 
+ 
+This operation will fail if the tracking branch has diverged from your local branch&mdash;the tracking branch contains committed changes that are not in your local branch. 
 
 ## Fetching and pulling changes
 
